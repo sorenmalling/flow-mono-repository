@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "test/package",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Package\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Test.Package"
+        }
+    }
+}
